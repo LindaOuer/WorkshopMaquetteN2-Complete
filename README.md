@@ -1,5 +1,5 @@
-# WorkshopMaquetteN2
+# :memo: WorkshopMaquetteN2
 ## Description: l'objectif de ce workshop est l'integration d'une maquette PSD en utilsant sass, Bootstrap 5, HTML5, CSS3 
-#### 1- Déclarer les variables necessaires
-#### 2- Déclarer les mixins necessaires
-#### 3- Déclarer les fonctions necessaires
+#### :point_right:	 Déclarer les variables necessaires
+#### :point_right:	Déclarer les mixins necessaires
+#### :point_right:	Déclarer les fonctions necessaires
