@@ -3,4 +3,4 @@
 #### :point_right:	 Déclarer les variables nécessaires
 #### :point_right:	Déclarer les mixins nécessaires
 #### :point_right:	Déclarer les fonctions nécessaires
-#### :point_right:	Tester le rendu la page index.html sur plusieurs résolutions 
+#### :point_right:	Tester le rendu de la page index.html sur plusieurs résolutions 
