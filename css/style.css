@@ -16,4 +16,24 @@
   font-family: "Lato Regular";
 }
 
+.title, .title2, .title1 {
+  font-size: 2.2rem;
+}
+
+.title1 {
+  color: #151515;
+  padding-top: 5.43rem;
+  font-family: "Playfair Display SC Bold";
+}
+
+.title2 {
+  color: #bc694e;
+}
+
+p {
+  font-family: "Lato Regular";
+  font-size: 1.5rem;
+  color: #4e4e4e;
+}
+
 /*# sourceMappingURL=style.css.map */
