@@ -1,0 +1,19 @@
+.navbar {
+  background-color: #f4f4f4;
+}
+
+.navbar-nav {
+  padding-left: 20.375rem !important;
+}
+
+.nav-item {
+  padding-right: 5.93rem;
+}
+
+.nav-link {
+  color: #616060 !important;
+  font-size: 1.875 rem !important;
+  font-family: "Lato Regular";
+}
+
+/*# sourceMappingURL=style.css.map */

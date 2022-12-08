@@ -1,0 +1,17 @@
+@import "variables.scss";
+.navbar{
+	background-color: $navbarColor; 
+}
+
+.navbar-nav{
+	padding-left: 20.375rem !important;
+}
+
+.nav-item{
+	padding-right: 5.93rem;
+}
+.nav-link{
+	color: $navLinkColor !important;
+	font-size: 1.875  rem !important;
+	font-family: "Lato Regular";
+}
