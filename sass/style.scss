@@ -1,4 +1,14 @@
 @import "variables.scss";
+@import "mixins.scss";
+@import "functions";
+@font-face {
+	font-family: "Lato Regular";
+	src: url("../Fonts/Lato/Lato-Regular.ttf");
+}
+@font-face {
+	font-family: playfairSC_Bold;
+	src: url("../Fonts/Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf");
+}
 .navbar{
 	background-color: $navbarColor; 
 }
@@ -12,7 +22,7 @@
 }
 .nav-link{
 	color: $navLinkColor !important;
-	font-size: 1.875  rem !important;
+	font-size: 1.875rem !important;
 	font-family: "Lato Regular";
 }
 .title{
@@ -35,4 +45,63 @@ p{
   font-family: "Lato Regular";
   font-size: 1.5rem;
   color: $paragColor;
+}
+
+#section3 {
+	position: relative;
+}
+.box_text {
+	position: absolute;
+	top: 1.8rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box_text h1 {
+	border: 0.1875rem solid #fff;
+	padding: 1rem;
+	color: $whiteColor;
+}
+
+footer{
+	background-color: $footerColor ;
+	height: 7.68rem;
+}
+footer p {
+	color: #141414;
+	font-size: 1.125rem;
+	font-family: "Lato Regular";
+}
+
+.footer_social i {
+	color: #848484;
+}
+.footer_social i:hover {
+	color: #141414;
+}
+.heading-2 {
+	font-family: playfairSC_Bold, sans-serif;
+	font-size: 2.19rem;
+	color: $subTitleColor;
+}
+
+.heading {
+	font-family: "Lato Regular",sans-serif;
+}
+.heading-3 {
+	@extend .heading;
+	font-size: 1.875rem;
+	color: $workColor;
+	font-weight: bold;
+}
+.heading-4 {
+	@extend .heading;
+	color: $colorGray;
+	font-size: 1.125rem;
+}
+
+#timeLine i {
+	color: $workColor;
+	font-size: 2.5rem;
 }

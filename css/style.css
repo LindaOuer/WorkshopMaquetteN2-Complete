@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Lato Regular";
+  src: url("../Fonts/Lato/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: playfairSC_Bold;
+  src: url("../Fonts/Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf");
+}
 .navbar {
   background-color: #f4f4f4;
 }
@@ -12,7 +20,7 @@
 
 .nav-link {
   color: #616060 !important;
-  font-size: 1.875 rem !important;
+  font-size: 1.875rem !important;
   font-family: "Lato Regular";
 }
 
@@ -34,6 +42,70 @@ p {
   font-family: "Lato Regular";
   font-size: 1.5rem;
   color: #4e4e4e;
+}
+
+#section3 {
+  position: relative;
+}
+
+.box_text {
+  position: absolute;
+  top: 1.8rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_text h1 {
+  border: 0.1875rem solid #fff;
+  padding: 1rem;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #f4f4f4;
+  height: 7.68rem;
+}
+
+footer p {
+  color: #141414;
+  font-size: 1.125rem;
+  font-family: "Lato Regular";
+}
+
+.footer_social i {
+  color: #848484;
+}
+
+.footer_social i:hover {
+  color: #141414;
+}
+
+.heading-2 {
+  font-family: playfairSC_Bold, sans-serif;
+  font-size: 2.19rem;
+  color: #bc694e;
+}
+
+.heading, .heading-4, .heading-3 {
+  font-family: "Lato Regular", sans-serif;
+}
+
+.heading-3 {
+  font-size: 1.875rem;
+  color: #4f4f4f;
+  font-weight: bold;
+}
+
+.heading-4 {
+  color: #848484;
+  font-size: 1.125rem;
+}
+
+#timeLine i {
+  color: #4f4f4f;
+  font-size: 2.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
