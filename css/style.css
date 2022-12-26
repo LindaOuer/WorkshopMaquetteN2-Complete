@@ -6,32 +6,70 @@
   font-family: playfairSC_Bold;
   src: url("../Fonts/Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf");
 }
+body {
+  overflow-x: hidden;
+}
+
 .navbar {
   background-color: #f4f4f4;
 }
 
 .navbar-nav {
-  padding-left: 20.375rem !important;
+  padding-left: 20.375rem;
+}
+@media screen and (max-width: 1200px) {
+  .navbar-nav {
+    padding-left: 16.3rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navbar-nav {
+    padding-left: 13.24375rem;
+  }
 }
 
 .nav-item {
   padding-right: 5.93rem;
 }
+@media screen and (max-width: 992px) {
+  .nav-item {
+    padding-right: 3.8545rem;
+  }
+}
+
+.last {
+  padding-right: 0;
+}
 
 .nav-link {
-  color: #616060 !important;
-  font-size: 1.875rem !important;
-  font-family: "Lato Regular";
+  color: #616060;
+  font-size: 1.875rem;
+  font-family: "Lato Regular", sans-serif;
+}
+@media screen and (max-width: 1200px) {
+  .nav-link {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .nav-link {
+    font-size: 1.21875rem;
+  }
 }
 
 .title, .title2, .title1 {
   font-size: 2.2rem;
 }
+@media screen and (max-width: 992px) {
+  .title, .title2, .title1 {
+    font-size: 1.43rem;
+  }
+}
 
 .title1 {
   color: #151515;
   padding-top: 5.43rem;
-  font-family: "Playfair Display SC Bold";
+  font-family: playfairSC_Bold, sans-serif;
 }
 
 .title2 {
@@ -39,9 +77,14 @@
 }
 
 p {
-  font-family: "Lato Regular";
+  font-family: "Lato Regular", sans-serif;
   font-size: 1.5rem;
   color: #4e4e4e;
+}
+@media screen and (max-width: 992px) {
+  p {
+    font-size: 0.975rem;
+  }
 }
 
 #section3 {
@@ -71,11 +114,22 @@ footer {
 footer p {
   color: #141414;
   font-size: 1.125rem;
-  font-family: "Lato Regular";
+  font-family: "Lato Regular", sans-serif;
+}
+@media screen and (max-width: 992px) {
+  footer p {
+    font-size: 0.73125rem;
+  }
 }
 
 .footer_social i {
   color: #848484;
+  padding-left: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .footer_social i {
+    padding-left: 0.5rem;
+  }
 }
 
 .footer_social i:hover {
@@ -84,8 +138,18 @@ footer p {
 
 .heading-2 {
   font-family: playfairSC_Bold, sans-serif;
-  font-size: 2.19rem;
+  font-size: 2.2rem;
   color: #bc694e;
+}
+@media screen and (max-width: 992px) {
+  .heading-2 {
+    font-size: 1.43rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .heading-2 {
+    font-size: 1.21rem;
+  }
 }
 
 .heading, .heading-4, .heading-3 {
@@ -97,15 +161,30 @@ footer p {
   color: #4f4f4f;
   font-weight: bold;
 }
+@media screen and (max-width: 992px) {
+  .heading-3 {
+    font-size: 1.21875rem;
+  }
+}
 
 .heading-4 {
   color: #848484;
   font-size: 1.125rem;
 }
+@media screen and (max-width: 992px) {
+  .heading-4 {
+    font-size: 0.73125rem;
+  }
+}
 
 #timeLine i {
   color: #4f4f4f;
   font-size: 2.5rem;
+}
+@media screen and (max-width: 992px) {
+  #timeLine i {
+    font-size: 1.625rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
