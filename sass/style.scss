@@ -105,6 +105,7 @@ footer p {
 	color: #141414;
 	font-size: 1.125rem;
 	font-family: $primaryFont;
+	margin: 0;
 
 	@media screen and (max-width: 992px) {
 		font-size: calc(1.125rem * 65 / 100);
